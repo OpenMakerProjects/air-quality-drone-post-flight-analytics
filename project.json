@@ -1,0 +1,21 @@
+{
+  "id": 830,
+  "title": "Air Quality Drone Post-Flight Analytics",
+  "repository_slug": "air-quality-drone-post-flight-analytics",
+  "category": "Drones",
+  "platform": "Jetson Orin Nano",
+  "platform_family": "python",
+  "difficulty": "Intermediate",
+  "estimated_hours": 32,
+  "connectivity": "MAVLink",
+  "components": [
+    "GPS module",
+    "barometer",
+    "LiDAR"
+  ],
+  "scope": "Build a drones prototype that uses GPS module, barometer, LiDAR to summarize mission performance and sensor data. Include setup instructions, a circuit diagram, tested firmware, and sample output.",
+  "key_deliverable": "Post-Flight Analytics demonstration with repeatable test steps",
+  "mode": "data_logger",
+  "entrypoint": "src/main.py",
+  "roadmap_source": "openmaker-2100-project-roadmap.xlsx"
+}
